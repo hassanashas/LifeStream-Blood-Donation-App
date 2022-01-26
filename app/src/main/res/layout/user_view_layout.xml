@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/user_view">
+
+    <LinearLayout
+        android:id="@+id/user_view_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/user_view_profile_image"
+            android:src="@drawable/ic_menu_profile"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:id="@+id/user_view_name"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+                android:text="Hasan Ashas" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:id="@+id/user_view_usertype"
+                android:gravity="left"
+                android:textColor="#000"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:text="User Type" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:id="@+id/user_view_phone"
+                android:gravity="left"
+                android:textColor="#000"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:text="Phone" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:id="@+id/user_view_email"
+                android:gravity="left"
+                android:textColor="#000"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:text="Phone" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:id="@+id/user_view_bloodgroup"
+                android:gravity="left"
+                android:textColor="#000"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:text="Phone" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:id="@+id/user_view_distance"
+                android:gravity="left"
+                android:textColor="#000"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:text="Phone" />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_below="@+id/user_view_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"/>
+
+
+</RelativeLayout>

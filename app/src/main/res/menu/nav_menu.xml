@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_compatible"
+        android:icon="@drawable/ic_compatible"
+        android:title="@string/compatible_with_you"/>
+
+    <item android:title="@string/blood_groupss">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_OP"
+                    android:icon="@drawable/oplus"
+                    android:title="@string/o_positive"/>
+                <item
+                    android:id="@+id/menu_ON"
+                    android:icon="@drawable/ominus"
+                    android:title="@string/o_negative"/>
+                <item
+                    android:id="@+id/menu_AP"
+                    android:icon="@drawable/aplus"
+                    android:title="@string/a_positive"/>
+                <item
+                    android:id="@+id/menu_AN"
+                    android:icon="@drawable/aminus"
+                    android:title="@string/a_negative"/>
+                <item
+                    android:id="@+id/menu_BP"
+                    android:icon="@drawable/bplus"
+                    android:title="@string/b_positive"/>
+                <item
+                    android:id="@+id/menu_BN"
+                    android:icon="@drawable/bminus"
+                    android:title="@string/b_negative"/>
+                <item
+                    android:id="@+id/menu_ABP"
+                    android:icon="@drawable/abplus"
+                    android:title="@string/ab_positive"/>
+                <item
+                    android:id="@+id/menu_ABN"
+                    android:icon="@drawable/abminus"
+                    android:title="@string/ab_negative"/>
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="@string/user_account">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_profile"
+                    android:icon="@drawable/ic_menu_profile"
+                    android:title="@string/update_profile"/>
+                <item
+                    android:id="@+id/menu_logout"
+                    android:icon="@drawable/ic_notifications"
+                    android:title="@string/log_out"/>
+
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

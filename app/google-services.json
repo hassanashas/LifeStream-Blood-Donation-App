@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1062543940673",
+    "project_id": "lifestream-d4646",
+    "storage_bucket": "lifestream-d4646.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062543940673:android:df079067ff4f7fda23fac0",
+        "android_client_info": {
+          "package_name": "com.example.lifestream"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062543940673-8ko96sb0i2sa9e7bc37b5s0s2ef41106.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lifestream",
+            "certificate_hash": "cb884c733355aebe89f3ddb9dcb6a61b6a6a85be"
+          }
+        },
+        {
+          "client_id": "1062543940673-4c95aleemq44j7c18vi0krnmle3hb5fp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnibmGQBlJL5LGNpunGRhJM3YnIAY9JbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062543940673-4c95aleemq44j7c18vi0krnmle3hb5fp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

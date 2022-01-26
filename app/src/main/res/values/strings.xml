@@ -1,0 +1,63 @@
+<resources>
+    <string-array name="blood_groups">
+
+        <item>Select your Blood Group</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+    <string-array name="user_type">
+        <item>Select User Type</item>
+        <item>Receipant</item>
+        <item>Donor</item>
+    </string-array>
+    <string name="app_name">LifeStream</string>
+    <string name="give_hope_give_life_give_blood">GIVE HOPE | GIVE LIFE | GIVE BLOOD</string>
+    <string name="donor_registration">Donor Registration</string>
+    <string name="recipient_registration">Recipient Registration</string>
+    <string name="already_signed_up_log_in">Already Signed up? Log in</string>
+    <string name="lifestream_donor_registration">LifeStream Donor Registration</string>
+    <string name="how_would_you_like_to_register_as">How would you like to Register as?</string>
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="lifestream_reciepent_registration">LifeStream Reciepent Registration</string>
+    <string name="lifestream_user_registration">lifeStream User Registration</string>
+    <string name="login">Login</string>
+    <string name="lifestream_user_login">LifeStream User Login</string>
+    <string name="not_registered_yet_sign_up">Not Registered yet? Sign up</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="log_out">Log Out</string>
+    <string name="ab_negative">AB Negative</string>
+    <string name="ab_positive">AB Positive</string>
+    <string name="b_negative">B Negative</string>
+    <string name="b_positive">B Positive</string>
+    <string name="a_negative">A Negative</string>
+    <string name="a_positive">A Positive</string>
+    <string name="o_positive">O Positive</string>
+    <string name="o_negative">O Negative</string>
+    <string name="blood_groupss">Blood Groups</string>
+    <string name="compatible_with_you">Compatible with You</string>
+    <string name="home">Home</string>
+    <string name="notifications">Notifications</string>
+    <string name="user_account">User Account</string>
+    <string name="nav_open">Open Navigation Bar</string>
+    <string name="nav_close">Close Navigation Bar</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="enter_new_password">Enter New Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_map">Map</string>
+    <string name="confirm_location">Confirm Location</string>
+    <string name="select_location">Select Location</string>
+</resources>
