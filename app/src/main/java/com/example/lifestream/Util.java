@@ -3,7 +3,7 @@ package com.example.lifestream;
 public class Util {
 
     public static String Email = "";
-    public static String Password = "";
+    public static String Password = ""; 
 
 
     public static double distance(double lat1, double lon1, double lat2, double lon2) {
